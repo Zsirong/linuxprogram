@@ -8,8 +8,9 @@
 #include <sys/types.h>
 //#include <sys/syscall.h>
 #define NUM 4
+#define LOOP 10000000
 
-struct num{
-	int num1;
-	int num2;
-};
+typedef struct {
+    int s;
+    int t;
+}result;
