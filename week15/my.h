@@ -6,6 +6,7 @@
 #include <string.h>
 #include <sys/time.h>
 #include <sys/types.h>
+#include <semaphore.h>
 //#include <sys/syscall.h>
 #define NUM 4
 #define LOOP 10000000
